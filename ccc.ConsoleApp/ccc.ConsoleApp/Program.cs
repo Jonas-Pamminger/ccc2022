@@ -9,10 +9,14 @@ class TestClass
 
         // Display the number of command line arguments.
         AlienMessage alienMessage = new AlienMessage();
+        foreach(string arg in alienMessage.outputTask3())
+        {
+            Console.WriteLine(arg);
+        }
         StringBuilder str = new StringBuilder();
         foreach (var letter in alienMessage.returnDictionary(alienMessage.Read()))
         {
-           str.AppendLine((alienMessage.CountLetter(letter)));
+          // str.AppendLine(());
         }
 
         
