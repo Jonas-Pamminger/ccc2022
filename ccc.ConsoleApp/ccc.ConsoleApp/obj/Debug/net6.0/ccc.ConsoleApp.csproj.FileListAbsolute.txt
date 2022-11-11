@@ -1,0 +1,15 @@
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\bin\Debug\net6.0\ccc.ConsoleApp.exe
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\bin\Debug\net6.0\ccc.ConsoleApp.deps.json
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\bin\Debug\net6.0\ccc.ConsoleApp.runtimeconfig.json
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\bin\Debug\net6.0\ccc.ConsoleApp.dll
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\bin\Debug\net6.0\ccc.ConsoleApp.pdb
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\ccc.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\ccc.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\ccc.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\ccc.ConsoleApp.AssemblyInfo.cs
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\ccc.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\ccc.ConsoleApp.dll
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\refint\ccc.ConsoleApp.dll
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\ccc.ConsoleApp.pdb
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\ccc.ConsoleApp.genruntimeconfig.cache
+C:\Users\satur\OneDrive\Desktop\prog\tests\ccc2022\ccc.ConsoleApp\ccc.ConsoleApp\obj\Debug\net6.0\ref\ccc.ConsoleApp.dll
