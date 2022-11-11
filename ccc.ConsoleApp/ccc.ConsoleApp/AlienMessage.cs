@@ -89,5 +89,25 @@ namespace ccc.ConsoleApp
             return inp.Length;
 
         }
+
+        public static string ShiftString(string input, int value)
+        {
+            string output = "";
+            for(int i = 0; i < input.Length; i++)
+            {
+                output += Convert.ToString(Convert.ToChar(input[i]) + value);
+            }
+            return output;
+        }
+
+        public static string[] ShiftStringArray(string[] input, int value)
+        {
+            string[] output = new string[input.Length];
+            for(int i = 0; i < input.Length; i++)
+            {
+                output[i] = ShiftString(input[i], value);
+            }
+            return output;
+        }
     }
 }
