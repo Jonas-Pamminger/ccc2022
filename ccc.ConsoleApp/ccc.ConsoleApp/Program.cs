@@ -12,9 +12,10 @@ class TestClass
         StringBuilder str = new StringBuilder();
         foreach (var letter in alienMessage.returnDictionary(alienMessage.Read()))
         {
-            str.AppendLine((alienMessage.CountLetter(letter)));
+           str.AppendLine((alienMessage.CountLetter(letter)));
         }
-        Console.WriteLine(str.ToString());
 
+        
     }
+    
 }

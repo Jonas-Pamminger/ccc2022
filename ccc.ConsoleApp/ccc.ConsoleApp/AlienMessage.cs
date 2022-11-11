@@ -6,28 +6,32 @@ using System.Threading.Tasks;
 
 namespace ccc.ConsoleApp
 {
-
+    
     internal class AlienMessage
     {
         public string[] Message { get; set; }
-        private const string FILE_NAME1 = "level3_1.in";
-        private const string FILE_NAME2 = "level3_2.in";
-        private const string FILE_NAME3 = "level3_3.in";
-        private const string FILE_NAME4 = "level3_4.in";
-        private const string FILE_NAME5 = "level3_5.in";
+        private const string FILE_NAME1 = "level2_1.in";
+        private const string FILE_NAME2 = "level2_2.in";
+        private const string FILE_NAME3 = "level2_3.in";
+        private const string FILE_NAME4 = "level2_4.in";
+        private const string FILE_NAME5 = "level2_5.in";
 
         public string[] Read()
         {
             string[] lines = File.ReadAllLines(FILE_NAME1);
             Message = lines.Skip(1).ToArray();
-            return lines.Skip(1).ToArray();
+
+            string[] first = lines[0].Split(' ');
+
+            lines = lines.Skip(2).ToArray();
+
+            return lines;
         }
 
         public string CountLetter(char letter)
         {
             int c = 0;
-            foreach (string line in Message)
-            {
+            foreach (string line in Message) {
                 foreach (char l in line)
                 {
                     if (l == letter)
@@ -41,6 +45,7 @@ namespace ccc.ConsoleApp
         public char[] returnDictionary(string[] inp)
         {
             char[] result = new char[CountNumberOfDiffernetLetter(inp)];
+            Console.WriteLine(CountNumberOfDiffernetLetter(inp));
             int count = 0;
             string usedChars = "";
             bool isIn;
@@ -54,7 +59,7 @@ namespace ccc.ConsoleApp
                         isIn = true;
                     }
                 }
-                if (!isIn && count < result.Length)
+                if (!isIn)
                 {
                     usedChars += inp[i][0];
                     result[count] = inp[i][0];
@@ -65,49 +70,28 @@ namespace ccc.ConsoleApp
         }
         public static int CountNumberOfDiffernetLetter(string[] strings)
         {
-            string inp = "";
-            bool isIn;
-            for (int i = 0; i < strings.Length; i++)
-            {
-                for (int n = 0; n < strings[i].Length; n++)
-                {
-                    isIn = false;
-                    for (int j = 0; j < inp.Length; j++)
-                    {
-                        if (strings[i][n] == inp[j])
-                        {
-                            isIn = true;
-                        }
-                    }
-                    if (!isIn)
-                    {
-                        inp += strings[i][n];
-                    }
+            List<char> cInText = new List<char>();
 
+            foreach (var str in strings)
+            {
+                foreach (var c in str)
+                {
+                    bool isInList = false;
+
+                        foreach (var cha in cInText)
+                        {
+                            
+                            if (cha == c)
+                            {
+                                isInList = true;
+                            }
+                            
+                        }
+                    
+                    if (!isInList) cInText.Add(c);
                 }
             }
-            return inp.Length;
-
-        }
-
-        public static string ShiftString(string input, int value)
-        {
-            string output = "";
-            for(int i = 0; i < input.Length; i++)
-            {
-                output += Convert.ToString(Convert.ToChar(input[i]) + value);
-            }
-            return output;
-        }
-
-        public static string[] ShiftStringArray(string[] input, int value)
-        {
-            string[] output = new string[input.Length];
-            for(int i = 0; i < input.Length; i++)
-            {
-                output[i] = ShiftString(input[i], value);
-            }
-            return output;
+            return cInText.Count;
         }
     }
 }
