@@ -10,11 +10,11 @@ namespace ccc.ConsoleApp
     internal class AlienMessage
     {
         public string[] Message { get; set; }
-        private const string FILE_NAME1 = "level2_1.in";
-        private const string FILE_NAME2 = "level2_2.in";
-        private const string FILE_NAME3 = "level2_3.in";
-        private const string FILE_NAME4 = "level2_4.in";
-        private const string FILE_NAME5 = "level2_5.in";
+        private const string FILE_NAME1 = "level3_1.in";
+        private const string FILE_NAME2 = "level3_2.in";
+        private const string FILE_NAME3 = "level3_3.in";
+        private const string FILE_NAME4 = "level3_4.in";
+        private const string FILE_NAME5 = "level3_5.in";
 
         public string[] Read()
         {
